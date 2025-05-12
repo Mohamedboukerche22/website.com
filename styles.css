@@ -74,6 +74,78 @@ header p {
 .btn:hover {
     background: #00b8d9;
 }
+    .projects {
+      padding: 50px 0;
+      background-color: #f8f9fa;
+    }
+    
+    .projects .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .project-image {
+      height: 200px;
+      background-color: #2563eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+    }
+    
+    .project-info {
+      padding: 20px;
+    }
+    
+    .project-info h3 {
+      margin-top: 0;
+      color: #1e293b;
+    }
+    
+    .project-info p {
+      color: #64748b;
+    }
+    
+    .project-links {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+    
+    .project-links a {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #2563eb;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    
+    .project-links a:hover {
+      background-color: #1d4ed8;
+    }
 
 .skills {
     padding: 60px 20px;
